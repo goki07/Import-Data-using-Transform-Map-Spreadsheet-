@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2026-09-29 04:05:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Employee Import using Import Set and Transform Map. Creates Employee Test and Employee Import tables, field mappings, Employee ID coalesce, and validation/cleanup transform script.</description>
+<inserted/>
+<name>Employee Import Transform Update Set</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>25e4b3823eb041d294b99326931e9dc7</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>25e4b3823eb041d294b99326931e9dc7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_3b39b0f60667402ca2df9ba808581950</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><client_scripts_access>true</client_scripts_access><configuration_access>true</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>true</delete_access><delete_access_controls>true</delete_access_controls><extension_model/><is_extendable>false</is_extendable><label>Employee Test</label><live_feed_enabled>false</live_feed_enabled><name>u_employee_test</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>3b39b0f60667402ca2df9ba808581950</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Test</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_3b39b0f60667402ca2df9ba808581950</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>b9b15580c7114e05a48e8ff502c56dc9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_d07dab8212434e68848b274189feb5e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><delete_access_controls>false</delete_access_controls><extension_model/><is_extendable>false</is_extendable><label>Employee Import</label><live_feed_enabled>false</live_feed_enabled><name>u_employee_import</name><number_ref/><provider_class/><read_access>true</read_access><super_class display_value="Import Set Row" name="sys_import_set_row"/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>d07dab8212434e68848b274189feb5e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Import</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_d07dab8212434e68848b274189feb5e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>79fdfc65598d48d5bd8dafd21d6a97c3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_1d0c5f07b74a47498adb798648384364</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_employee_id" table="u_employee_test"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Employee ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_employee_id</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>u_employee_test</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>1d0c5f07b74a47498adb798648384364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_1d0c5f07b74a47498adb798648384364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>true</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>e59428c313b64f3f80eeba541b3e45d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test.Employee ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_66ffb7fe39784d3e913180813c5ae539</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_employee_name" table="u_employee_test"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Employee Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_employee_name</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_test</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>66ffb7fe39784d3e913180813c5ae539</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_66ffb7fe39784d3e913180813c5ae539</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>2c22a5a18e3a49c2987eb1c87f1bcb37</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test.Employee Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_867689ac181d468bbc9be997a24b0f36</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_email" table="u_employee_test"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Email</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_email</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_test</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>867689ac181d468bbc9be997a24b0f36</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_867689ac181d468bbc9be997a24b0f36</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>6faa43b3e11f4d579a18deeebff4cdf7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test.Email</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_dfb0cf1cb5f441659680074a774fe17b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_department" table="u_employee_test"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Department</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_department</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_test</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>dfb0cf1cb5f441659680074a774fe17b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_dfb0cf1cb5f441659680074a774fe17b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>d0f1ff492374476882603503d4702565</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test.Department</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_0a5704f4bc3f47beaecfa52e87cf016c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_location" table="u_employee_test"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Location</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_test</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0a5704f4bc3f47beaecfa52e87cf016c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_0a5704f4bc3f47beaecfa52e87cf016c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>b0724524c1664f778f2d5bda92b83836</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_test</table>
+<target_name>Employee Test.Location</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_306550fa024a4ec7846f6698460a5e22</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_employee_id" table="u_employee_import"><active>true</active><array>false</array><attributes>import_attribute_name=u_employee_id</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Employee ID</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_employee_id</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_employee_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>306550fa024a4ec7846f6698460a5e22</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee ID</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_306550fa024a4ec7846f6698460a5e22</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>03acfc31e3e147fb8069ac4fc49ac8ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import.Employee ID</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_c708e12d368e4a43819e0c83c196f7e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_employee_name" table="u_employee_import"><active>true</active><array>false</array><attributes>import_attribute_name=u_employee_name</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Employee Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_employee_name</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c708e12d368e4a43819e0c83c196f7e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_c708e12d368e4a43819e0c83c196f7e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>c7c7ce575ef243d0b8b8c48bfcf787d2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import.Employee Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_0ea1b3ef1eeb45c1915ba6e04a9255cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_email" table="u_employee_import"><active>true</active><array>false</array><attributes>import_attribute_name=u_email</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Email</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_email</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>0ea1b3ef1eeb45c1915ba6e04a9255cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_0ea1b3ef1eeb45c1915ba6e04a9255cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>118124d7a30e407683c763c5e5e6c265</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import.Email</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_a72cc1e320ad4df3a2d676012b2593f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_department" table="u_employee_import"><active>true</active><array>false</array><attributes>import_attribute_name=u_department</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Department</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_department</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>a72cc1e320ad4df3a2d676012b2593f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Department</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_a72cc1e320ad4df3a2d676012b2593f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>6ec6186cb68a41e49a48a3b9e6efb4c4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import.Department</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_c945862a620e46e289ae1429c0260293</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary"><sys_dictionary action="INSERT_OR_UPDATE" element="u_location" table="u_employee_import"><active>true</active><array>false</array><attributes>import_attribute_name=u_location</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Location</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_location</element><element_reference>false</element_reference><foreign_database/><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>u_employee_import</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>c945862a620e46e289ae1429c0260293</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_c945862a620e46e289ae1429c0260293</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>9f168f11ab1d41bd87d7c7a3d2b7cacd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import.Location</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_map_7d5afcfc809c401493e878d6a708fc2e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map"><sys_transform_map action="INSERT_OR_UPDATE"><active>true</active><copy_empty_fields>false</copy_empty_fields><description>Import Employee spreadsheet data into Employee Test table.</description><enforce_mandatory_fields>true</enforce_mandatory_fields><name>Sample Spreadsheet Import</name><run_business_rules>true</run_business_rules><run_script>true</run_script><source_table>u_employee_import</source_table><target_table>u_employee_test</target_table><sys_class_name>sys_transform_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7d5afcfc809c401493e878d6a708fc2e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sample Spreadsheet Import</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_map_7d5afcfc809c401493e878d6a708fc2e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on><table>u_employee_import</table></sys_transform_map></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>cd8d11caa8c449a590863c7875e9b7c6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import</target_name>
+<type>Transform Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_2129b97860914b4dad11e8aa5f938e11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><active>true</active><coalesce>true</coalesce><default_value/><name>u_employee_id</name><source_field>u_employee_id</source_field><target_field>u_employee_id</target_field><transform_map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</transform_map><use_source_script>false</use_source_script><source_script/><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>2129b97860914b4dad11e8aa5f938e11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_employee_id</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_entry_2129b97860914b4dad11e8aa5f938e11</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_entry></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>1dd11f5dea674ee09bb8d819becce09c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import.u_employee_id</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_639ee517d62d48168ed8d3db33c2d520</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><active>true</active><coalesce>false</coalesce><default_value/><name>u_employee_name</name><source_field>u_employee_name</source_field><target_field>u_employee_name</target_field><transform_map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</transform_map><use_source_script>false</use_source_script><source_script/><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>639ee517d62d48168ed8d3db33c2d520</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_employee_name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_entry_639ee517d62d48168ed8d3db33c2d520</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_entry></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>006667a294004419ae7fc681d0d2af15</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import.u_employee_name</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_13a419b79e784778b540ba284d7fb113</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><active>true</active><coalesce>false</coalesce><default_value/><name>u_email</name><source_field>u_email</source_field><target_field>u_email</target_field><transform_map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</transform_map><use_source_script>false</use_source_script><source_script/><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>13a419b79e784778b540ba284d7fb113</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_email</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_entry_13a419b79e784778b540ba284d7fb113</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_entry></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>126df2f768bf4f6bb258d2beeeb2d24d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import.u_email</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_16bb444a36b2476dbed0797317762711</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><active>true</active><coalesce>false</coalesce><default_value/><name>u_department</name><source_field>u_department</source_field><target_field>u_department</target_field><transform_map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</transform_map><use_source_script>false</use_source_script><source_script/><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>16bb444a36b2476dbed0797317762711</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_department</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_entry_16bb444a36b2476dbed0797317762711</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_entry></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>1966ac13e8f34c4e9dffee6e7dfcb8b8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import.u_department</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_entry_8dd66da700d044dbad4e6a53e357e0ea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry"><sys_transform_entry action="INSERT_OR_UPDATE"><active>true</active><coalesce>false</coalesce><default_value/><name>u_location</name><source_field>u_location</source_field><target_field>u_location</target_field><transform_map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</transform_map><use_source_script>false</use_source_script><source_script/><sys_class_name>sys_transform_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8dd66da700d044dbad4e6a53e357e0ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_location</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_entry_8dd66da700d044dbad4e6a53e357e0ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_entry></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>864128b3afe3413a906a3297dbd9bbcd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Sample Spreadsheet Import.u_location</target_name>
+<type>Field Map</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_transform_script_02eaa07004304a078646035f8ba1ca61</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script"><sys_transform_script action="INSERT_OR_UPDATE"><active>true</active><name>Employee Import Validation</name><order>100</order><script>(function transformEntry(source, target, map, log, isUpdate) {
+
+    // Trim incoming values
+    if (source.u_employee_id)
+        source.u_employee_id = source.u_employee_id.toString().trim().toUpperCase();
+
+    if (source.u_employee_name)
+        source.u_employee_name = source.u_employee_name.toString().trim();
+
+    if (source.u_email)
+        source.u_email = source.u_email.toString().trim().toLowerCase();
+
+    if (source.u_department)
+        source.u_department = source.u_department.toString().trim();
+
+    if (source.u_location)
+        source.u_location = source.u_location.toString().trim();
+
+    // Required field validation
+    if (!source.u_employee_id) {
+        ignore = true;
+        log.warn('Skipped employee row: Employee ID is empty.');
+        return;
+    }
+
+    if (!source.u_employee_name) {
+        ignore = true;
+        log.warn('Skipped employee row: Employee Name is empty for ' +
+                 source.u_employee_id);
+        return;
+    }
+
+    // Basic email validation when an email is supplied
+    if (source.u_email) {
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailPattern.test(source.u_email.toString())) {
+            ignore = true;
+            log.warn('Skipped employee row: Invalid email for ' +
+                     source.u_employee_id);
+        }
+    }
+
+})(source, target, map, log, action === 'update');</script><when>onBefore</when><map display_value="Sample Spreadsheet Import">7d5afcfc809c401493e878d6a708fc2e</map><sys_class_name>sys_transform_script</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 04:05:15</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>02eaa07004304a078646035f8ba1ca61</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Import Validation</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_transform_script_02eaa07004304a078646035f8ba1ca61</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-29 04:05:15</sys_updated_on></sys_transform_script></record_update>]]></payload>
+<remote_update_set display_value="Employee Import Transform Update Set">25e4b3823eb041d294b99326931e9dc7</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-29 04:05:15</sys_created_on>
+<sys_id>bf03d8bd2dcc4ce793a7cde8101370df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-29 04:05:15</sys_updated_on>
+<table>u_employee_import</table>
+<target_name>Employee Import Validation</target_name>
+<type>Transform Script</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+
+</unload>
